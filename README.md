@@ -2,9 +2,29 @@
 
 Welcome to the **Building an End-to-End Retrieval-Augmented Generation System** repository. This repository is designed to guide you through the process of creating a complete Retrieval-Augmented Generation (RAG) system from scratch, following a structured curriculum.
 
+## Setup Instructions
+
+To get started with the course:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/CarlosCaris/rag-course.git
+2. Create a virtual environment
+    ```bash
+    python -m vevn .venv
+3. Activate the environment
+   ```bash
+    # On Mac
+    .venv/bin/activate
+    # On Windows
+    .venv\Scripts\activate
+4. Install requirements
+    ```bash
+    pip install -r requirements.txt
 ## Table of Contents
 
 - [Building an End-to-End Retrieval-Augmented Generation System](#building-an-end-to-end-retrieval-augmented-generation-system)
+  - [Setup Instructions](#setup-instructions)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Course Outline](#course-outline)
@@ -17,7 +37,6 @@ Welcome to the **Building an End-to-End Retrieval-Augmented Generation System** 
     - [Lesson 7: Summarization Techniques for Efficient Generation](#lesson-7-summarization-techniques-for-efficient-generation)
     - [Lesson 8: Evaluation and Optimization of the RAG System](#lesson-8-evaluation-and-optimization-of-the-rag-system)
     - [Lesson 9: Deploying the RAG System as a Google Cloud Function](#lesson-9-deploying-the-rag-system-as-a-google-cloud-function)
-  - [Setup Instructions](#setup-instructions)
 
 ## Introduction
 
@@ -115,11 +134,3 @@ This repository contains the materials and code needed to build a complete Retri
   - Testing and scaling the deployed RAG system
 - **Practical Task:** Deploy your RAG system as a Google Cloud Function and test its performance in a production-like environment.
 - **Reading:** Google Cloud Functions documentation and relevant deployment guides.
-
-## Setup Instructions
-
-To get started with the course:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/RAG-System.git
